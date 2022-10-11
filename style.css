@@ -1,0 +1,245 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container_header{
+    background-image: url(./Img/bg-header-desktop.png);
+    position: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+.container_header img{
+    margin-top: 70px;
+}
+
+.container_header h2{
+    font-size: 40px;
+    color: hsl(210, 10%, 33%);
+}
+.container_header p{
+    text-align: center;
+    margin-top: -30px;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+.btn_header, .btn_finish{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.down_ios{
+    color: white;
+    margin-right: 40px;
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.down_mac{
+    color: white;
+   background-color: hsl(171, 66%, 44%);
+   border: none;
+   border-radius: 50px;
+   height: 50px;
+   cursor: pointer;
+   width: 200px;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.title_two{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_two h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+}
+
+.title_two p{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+.desktop_img_text{
+    display: flex;
+    flex-direction: row;
+}
+
+.desk_img{
+    margin-left: -70px;
+    margin-right: 100px;
+}
+
+.desktop_text{
+    margin-top: 80px;
+}
+
+.desktop_text h2{
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+}
+
+.desktop_text p{
+    margin-top: -30px;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.title_three{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_three h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+}
+
+.title_three p{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+.img_tab_mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_four{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_four h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+}
+
+.title_four p{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+.icons_categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_categories h3,p{
+    margin-left: 90px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.google{
+    margin-left: 130px;
+    margin-right: 80px;
+}
+
+.ibm, .microsoft, .hp{
+    margin-right: 80px;
+}
+
+.title_five{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_five h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+}
+
+.title_five p{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+.container_footer{
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 89%);
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+}
+
+.logo_footer img{
+    width: 60px;
+    height: 60px;
+    margin-top: 65px;
+    margin-left: 120px;
+}
+
+.faqs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    margin-left: 270px;
+}
+
+.faqs a{
+    text-decoration: none;
+    color: hsl(202, 7%, 54%);
+    padding: 20px;
+}
+
+.icons_footer{
+    margin-top: 65px;
+    margin-left: 200px;
+}
+.icons_footer img{
+    padding: 20px;
+}
